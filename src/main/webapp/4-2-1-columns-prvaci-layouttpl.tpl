@@ -1,4 +1,4 @@
-<div class="columns-4-2-1" id="main-content" role="main">
+<div class="columns-4-2-1 columns-layout-70-30" id="main-content" role="main">
 	#if ($browserSniffer.isIe($request) && $browserSniffer.getMajorVersion($request) < 8)
 		<table class="portlet-layout">
 		<tr>
